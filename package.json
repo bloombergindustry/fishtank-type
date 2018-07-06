@@ -1,0 +1,46 @@
+{
+  "name": "@fishtank/type",
+  "version": "1.3.2",
+  "description": "Typography tokens for the Fishtank Design System",
+  "main": "dist/index.json",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "build": "npm run build:tokens && npm run build:manifest",
+    "build:tokens": "theo index.yml --setup scripts/transformFontFamily.js --transform web --format custom-properties.css,scss,common.js,json,raw.json --dest dist/",
+    "build:manifest": "node scripts/get_token_names.js > token_names.json",
+    "prepare": "npm run clean && npm run build",
+    "watch": "nodemon -e yml --ignore build --exec npm run build",
+    "test": "ava",
+    "test:ci": "ava --tap > test.tap",
+    "precommit": "npm run test",
+    "commitmsg": "nothing-major -v -b 'npm -s install' -t 'npm test' test.js token_names.json",
+    "release-props:ci": "scripts/release-props.sh > release.props",
+    "release": "standard-version"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "Fishtank <agile_fishtank@bna.com>",
+  "keywords": [
+    "fishtank",
+    "design-system",
+    "tokens",
+    "typography",
+    "type"
+  ],
+  "files": [
+    "dist/",
+    "type/",
+    "index.yml"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ava": "0.25.0",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "0.14.3",
+    "nodemon": "^1.12.2",
+    "nothing-major": "^1.1.1",
+    "standard-version": "^4.3.0",
+    "theo": "^6.0.0-beta.7"
+  }
+}

@@ -1,0 +1,25 @@
+global:
+  type: size
+  category: Letter Spacing
+
+props:
+  letterspacing-heading-lg:
+    value: "-0.04rem"
+
+  letterspacing-heading-md:
+    value: "-0.04rem"
+
+  letterspacing-heading-sm:
+    value: "0rem"
+
+  letterspacing-base-lg:
+    value: "0rem"
+
+  letterspacing-base-md:
+    value: "0.00625rem"
+
+  letterspacing-base-sm:
+    value: "0.01875rem"
+
+  letterspacing-small:
+    value: "0.01875rem"

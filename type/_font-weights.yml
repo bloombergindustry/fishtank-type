@@ -1,0 +1,13 @@
+global:
+  type: size
+  category: Font Weights
+
+props:
+  fontweight-regular:
+    value: "400"
+
+  fontweight-semi:
+    value: "600"
+
+  fontweight-bold:
+    value: "700"

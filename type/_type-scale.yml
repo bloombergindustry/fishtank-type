@@ -1,0 +1,25 @@
+global:
+  type: size
+  category: Type Scale
+
+props:
+  fontsize-heading-lg:
+    value: "3.375rem"
+
+  fontsize-heading-md:
+    value: "2.25rem"
+
+  fontsize-heading-sm:
+    value: "1.5rem"
+
+  fontsize-base-lg:
+    value: "1rem"
+
+  fontsize-base-md:
+    value: ".875rem"
+
+  fontsize-base-sm:
+    value: ".75rem"
+
+  fontsize-small:
+    value: ".625rem"

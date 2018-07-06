@@ -1,0 +1,7 @@
+global:
+  type: size
+  category: Root Font-Size
+
+props:
+  root-fontsize:
+    value: "16px"

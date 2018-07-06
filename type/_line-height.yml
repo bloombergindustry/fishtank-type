@@ -1,0 +1,28 @@
+global:
+  type: size
+  category: Line Height
+
+props:
+  lineheight-heading-lg:
+    value: "4rem"
+
+  lineheight-heading-md:
+    value: "2.75rem"
+
+  lineheight-heading-sm:
+    value: "1.75rem"
+
+  lineheight-base-lg:
+    value: "1.5rem"
+
+  lineheight-base-md:
+    value: "1.25rem"
+
+  lineheight-base-sm:
+    value: "1rem"
+
+  lineheight-small:
+    value: ".75rem"
+
+  lineheight-100:
+    value: "1.0"

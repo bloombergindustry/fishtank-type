@@ -1,0 +1,7 @@
+dist
+build
+.DS_store
+node_modules/
+node_modules
+*.tgz
+*.tap
