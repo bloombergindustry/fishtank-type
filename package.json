@@ -20,6 +20,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "repository": {
+    "url": "https://github.com/bloombergbna/fishtank-type",
+    "type": "git"
+  },
   "author": "Fishtank <agile_fishtank@bna.com>",
   "keywords": [
     "fishtank",
