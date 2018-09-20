@@ -5,8 +5,8 @@ global:
 props:
   font-primary:
     type: "fontFamily"
-    value: ['"Open Sans"', arial, sans-serif]
+    value: ['"OpenSans"', arial, sans-serif]
 
   font-accent:
     type: "fontFamily"
-    value: ['"Avenir Next"', '"Avenir"', '"Helvetica Neue"', helvetica, arial, sans-serif]
+    value: ['"AvenirNextMForBBG"', '"Avenir"', '"Helvetica Neue"', helvetica, arial, sans-serif]
