@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist/*",
     "build": "npm run build:tokens && npm run build:manifest",
-    "build:tokens": "theo index.yml --setup scripts/transformFontFamily.js --transform web --format custom-properties.css,scss,common.js,json,raw.json --dest dist/",
+    "build:tokens": "theo index.yml --setup scripts/transformFontFamily.js --transform web --format custom-properties.css,scss,common.js,json,raw.json,less --dest dist/",
     "build:manifest": "node scripts/get_token_names.js > token_names.json",
     "prepare": "npm run clean && npm run build",
     "watch": "nodemon -e yml --ignore build --exec npm run build",
