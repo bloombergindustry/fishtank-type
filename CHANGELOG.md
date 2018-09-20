@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.4"></a>
+## [1.3.4](https://github.com/bloombergbna/fishtank-type/compare/v1.3.3...v1.3.4) (2018-08-21)
+
+
+
 <a name="1.3.3"></a>
 ## 1.3.3 (2018-07-24)
 

@@ -5,4 +5,4 @@ imports:
   - type/_line-height.yml
   - type/_font-weights.yml
   - type/_letter-spacing.yml
-  - type/_font-urls.yml
+  - type/_cdn-url.yml
