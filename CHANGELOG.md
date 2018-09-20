@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/bloombergbna/fishtank-type/compare/v1.3.3...v2.0.0) (2018-09-20)
+
+
+### Features
+
+* Added repository prop to package.json ([4428525](https://github.com/bloombergbna/fishtank-type/commit/4428525))
+
+
+* Updates to font-face names and CDN URL (#3) ([1d84ee5](https://github.com/bloombergbna/fishtank-type/commit/1d84ee5)), closes [#3](https://github.com/bloombergbna/fishtank-type/issues/3) [#2](https://github.com/bloombergbna/fishtank-type/issues/2)
+
+
+### BREAKING CHANGES
+
+* Individual URLs to CDN font files are no longer available
+
+
+
 <a name="1.3.4"></a>
 ## [1.3.4](https://github.com/bloombergbna/fishtank-type/compare/v1.3.3...v1.3.4) (2018-08-21)
 
