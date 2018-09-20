@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/bloombergbna/fishtank-type/compare/v2.0.0...v3.0.0) (2018-09-20)
+
+
+* Dev (#4) ([8fcffee](https://github.com/bloombergbna/fishtank-type/commit/8fcffee)), closes [#4](https://github.com/bloombergbna/fishtank-type/issues/4) [#3](https://github.com/bloombergbna/fishtank-type/issues/3) [#2](https://github.com/bloombergbna/fishtank-type/issues/2)
+
+
+### Features
+
+* Added .less style output to type tokens ([b4c4c21](https://github.com/bloombergbna/fishtank-type/commit/b4c4c21))
+
+
+### BREAKING CHANGES
+
+* Individual URLs to CDN font files are no longer available
+
+
+
+<a name="1.3.4"></a>
+## [1.3.4](https://github.com/bloombergbna/fishtank-type/compare/v1.3.3...v1.3.4) (2018-08-21)
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/bloombergbna/fishtank-type/compare/v1.3.3...v2.0.0) (2018-09-20)
 
