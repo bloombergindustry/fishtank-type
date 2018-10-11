@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/bloombergbna/fishtank-type/compare/v3.0.0...v3.0.1) (2018-10-11)
+
+
+### Bug Fixes
+
+* Removed package-lock.json ([3b81a75](https://github.com/bloombergbna/fishtank-type/commit/3b81a75))
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/bloombergbna/fishtank-type/compare/v2.0.0...v3.0.0) (2018-09-20)
 
