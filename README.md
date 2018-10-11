@@ -1,6 +1,6 @@
-# Fishtank Type
+# Fish Tank Type
 
-[Typography tokens](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421) for all of the typography in the Fishtank Design System, distributed in one freestanding package.
+[Typography tokens](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421) for all of the typography in the Fish Tank Design System, distributed in one freestanding package.
 
 ## Installation
 
@@ -15,7 +15,8 @@ Once you've added `@fishtank/type` as a dependency, you'll be able to get the to
 * JSON (default)
 * Common.JS module
 * CSS Custom Properties
-* SCSS Variables
+* SCSS
+* LESS
 
 More formats are available. See [`theo`](https://github.com/salesforce-ux/theo) for more information.
 
