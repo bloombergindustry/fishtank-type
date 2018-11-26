@@ -1,6 +1,6 @@
 {
   "name": "@fishtank/type",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Typography tokens for the Fishtank Design System",
   "main": "dist/index.json",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "npm run build:tokens && npm run build:manifest && npm run build:stylesheet",
     "build:tokens": "theo index.yml --setup scripts/transformFontFamily.js --transform web --format custom-properties.css,scss,common.js,json,raw.json,less --dest dist/",
     "build:manifest": "node scripts/get_token_names.js > token_names.json",
-    "build:stylesheet": "node scripts/generate-text-stylesheet.js > dist/css-variable-stylesheet.css" ,
+    "build:stylesheet": "node scripts/generate-text-stylesheet.js > dist/css-variable-stylesheet.css",
     "prepare": "npm run clean && npm run build",
     "watch": "nodemon -e yml --ignore build --exec npm run build",
     "test": "ava",
