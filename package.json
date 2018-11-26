@@ -5,7 +5,7 @@
   "main": "dist/index.json",
   "scripts": {
     "clean": "rm -rf dist/*",
-    "build": "npm run build:tokens && npm run build:manifest",
+    "build": "npm run build:tokens && npm run build:manifest && npm run build:stylesheet",
     "build:tokens": "theo index.yml --setup scripts/transformFontFamily.js --transform web --format custom-properties.css,scss,common.js,json,raw.json,less --dest dist/",
     "build:manifest": "node scripts/get_token_names.js > token_names.json",
     "build:stylesheet": "node scripts/generate-text-stylesheet.js > dist/css-variable-stylesheet.css" ,

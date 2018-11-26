@@ -20,7 +20,7 @@ const typeTokenList = () => {
 
 function typeStyleSheet() {
   const typeCssClasses = SCALE.map(scale => {
-    let cssClassName = `fontSize${scale.split('-').map(capitalize).join('')}`
+    let cssClassName = `.fontSize${scale.split('-').map(capitalize).join('')}`
     let rules = ruleset(cssClassName, [
       ['font-size', `var(--fontsize-${scale})`],
       ['line-height', `var(--lineheight-${scale})`],
