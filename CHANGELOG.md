@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/bloombergbna/fishtank-type/compare/v3.0.2...v3.1.0) (2018-12-10)
+
+
+### Features
+
+* refactored token generation process to output string values for primary and accent font stacks ([bcc15a4](https://github.com/bloombergbna/fishtank-type/commit/bcc15a4))
+
+
+
 <a name="3.0.2"></a>
 ## [3.0.2](https://github.com/bloombergbna/fishtank-type/compare/v3.0.1...v3.0.2) (2018-11-26)
 
