@@ -3,7 +3,7 @@ module.exports = theo => {
     'transformFontFamily', 
     prop => prop.get('type') === 'fontFamily', 
     prop => {
-      const arr = prop.get('value').toArray();
+      const arr = prop.get('value').toArray().join();
       return arr;
     }
   );
